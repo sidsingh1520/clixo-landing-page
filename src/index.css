@@ -154,4 +154,44 @@ All colors MUST be HSL.
   html {
     scroll-behavior: smooth;
   }
+  
+  /* Mobile Optimizations */
+  @media (max-width: 640px) {
+    /* Prevent horizontal scrolling on mobile */
+    body {
+      overflow-x: hidden;
+    }
+    
+    /* Better touch targets */
+    button, a {
+      min-height: 44px;
+      min-width: 44px;
+    }
+    
+    /* Optimized text sizes for readability */
+    .text-xs { font-size: 0.75rem; }
+    .text-sm { font-size: 0.875rem; }
+    .text-base { font-size: 1rem; }
+    
+    /* Better spacing on mobile */
+    .container {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  }
+  
+  /* Tablet optimizations */
+  @media (min-width: 641px) and (max-width: 1024px) {
+    .container {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+  }
+  
+  /* Ultra-wide screen optimizations */
+  @media (min-width: 1920px) {
+    .container {
+      max-width: 1400px;
+    }
+  }
 }

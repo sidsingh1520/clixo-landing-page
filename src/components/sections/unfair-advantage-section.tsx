@@ -1,7 +1,7 @@
 import { CtaButton } from "@/components/ui/cta-button"
 import { Card } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { ArrowRight, Zap, Search, TrendingUp, Target, Users, BarChart3 } from "lucide-react"
+import { ArrowRight, Search, TrendingUp, Target, Users, BarChart3 } from "lucide-react"
 
 export const UnfairAdvantageSection = () => {
   return (

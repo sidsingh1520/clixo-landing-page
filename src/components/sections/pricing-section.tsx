@@ -1,79 +1,79 @@
 import { CtaButton } from "@/components/ui/cta-button"
 import { Card } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { ArrowRight, Check, IndianRupee, Video, Clock, Target, Users, TrendingUp } from "lucide-react"
+import { ArrowRight, Check, IndianRupee, Video, Clock, Target, TrendingUp } from "lucide-react"
 
 export const PricingSection = () => {
   return (
-    <section className="py-20 sm:py-28 lg:py-32 px-4 sm:px-6 lg:px-8">
+    <section className="py-16 sm:py-20 md:py-28 lg:py-32 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
-        <div className="text-center mb-16">
-          <Badge variant="outline" className="mb-6 border-brand-coral/30 text-brand-coral bg-brand-coral/5">
+        <div className="text-center mb-12 sm:mb-16">
+          <Badge variant="outline" className="mb-4 sm:mb-6 border-brand-coral/30 text-brand-coral bg-brand-coral/5 text-xs sm:text-sm">
             💼 Plans That Grow With You
           </Badge>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+          <h2 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6">
             <span className="text-white">Choose Your</span>
             <span className="gradient-text"> Growth Mode</span>
           </h2>
         </div>
 
         {/* Pricing Cards */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-5xl mx-auto mb-16">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 max-w-5xl mx-auto mb-12 sm:mb-16">
           {/* Startup Plan */}
-          <Card className="glass-card p-8 border-white/10 hover-glow relative">
-            <div className="text-center mb-8">
-              <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/5 rounded-full mb-4">
-                <Target className="w-4 h-4 text-brand-coral" />
-                <span className="text-brand-coral font-medium text-sm">🚀 Startup Plan</span>
+          <Card className="glass-card p-6 sm:p-8 border-white/10 hover-glow relative">
+            <div className="text-center mb-6 sm:mb-8">
+              <div className="inline-flex items-center gap-2 px-3 py-2 sm:px-4 sm:py-2 bg-white/5 rounded-full mb-3 sm:mb-4">
+                <Target className="w-3 h-3 sm:w-4 sm:h-4 text-brand-coral" />
+                <span className="text-brand-coral font-medium text-xs sm:text-sm">🚀 Startup Plan</span>
               </div>
-              <div className="flex items-center justify-center gap-2 mb-4">
-                <IndianRupee className="w-8 h-8 text-white" />
-                <span className="text-4xl font-bold text-white">50,000</span>
-                <span className="text-white/70">/month</span>
+              <div className="flex items-center justify-center gap-2 mb-3 sm:mb-4">
+                <IndianRupee className="w-6 h-6 sm:w-8 sm:h-8 text-white" />
+                <span className="text-3xl sm:text-4xl font-bold text-white">50,000</span>
+                <span className="text-white/70 text-sm sm:text-base">/month</span>
               </div>
             </div>
 
             {/* Features */}
-            <div className="space-y-4 mb-8">
-              <div className="flex items-center gap-3">
-                <Video className="w-5 h-5 text-brand-coral" />
-                <span className="text-white">15 short videos per month (1 every 2 days)</span>
+            <div className="space-y-3 sm:space-y-4 mb-6 sm:mb-8">
+              <div className="flex items-start gap-3">
+                <Video className="w-4 h-4 sm:w-5 sm:h-5 text-brand-coral mt-0.5" />
+                <span className="text-white text-sm sm:text-base">15 short videos per month (1 every 2 days)</span>
               </div>
-              <div className="flex items-center gap-3">
-                <Check className="w-5 h-5 text-brand-coral" />
-                <span className="text-white">Topic Ideation</span>
+              <div className="flex items-start gap-3">
+                <Check className="w-4 h-4 sm:w-5 sm:h-5 text-brand-coral mt-0.5" />
+                <span className="text-white text-sm sm:text-base">Topic Ideation</span>
               </div>
-              <div className="flex items-center gap-3">
-                <Check className="w-5 h-5 text-brand-coral" />
-                <span className="text-white">Script Writing</span>
+              <div className="flex items-start gap-3">
+                <Check className="w-4 h-4 sm:w-5 sm:h-5 text-brand-coral mt-0.5" />
+                <span className="text-white text-sm sm:text-base">Script Writing</span>
               </div>
-              <div className="flex items-center gap-3">
-                <Check className="w-5 h-5 text-brand-coral" />
-                <span className="text-white">Voice + Avatar AI Generation</span>
+              <div className="flex items-start gap-3">
+                <Check className="w-4 h-4 sm:w-5 sm:h-5 text-brand-coral mt-0.5" />
+                <span className="text-white text-sm sm:text-base">Voice + Avatar AI Generation</span>
               </div>
-              <div className="flex items-center gap-3">
-                <Check className="w-5 h-5 text-brand-coral" />
-                <span className="text-white">High-Quality Editing</span>
+              <div className="flex items-start gap-3">
+                <Check className="w-4 h-4 sm:w-5 sm:h-5 text-brand-coral mt-0.5" />
+                <span className="text-white text-sm sm:text-base">High-Quality Editing</span>
               </div>
-              <div className="flex items-center gap-3">
-                <Check className="w-5 h-5 text-brand-coral" />
-                <span className="text-white">SEO Optimized Publishing (Instagram, YouTube, LinkedIn)</span>
+              <div className="flex items-start gap-3">
+                <Check className="w-4 h-4 sm:w-5 sm:h-5 text-brand-coral mt-0.5" />
+                <span className="text-white text-sm sm:text-base">SEO Optimized Publishing (Instagram, YouTube, LinkedIn)</span>
               </div>
             </div>
 
-            <div className="p-4 bg-white/5 rounded-2xl mb-6">
-              <div className="text-brand-coral font-semibold text-sm mb-1">Ideal For:</div>
-              <div className="text-white/90 text-sm">Solo founders, creators, consultants getting started with content</div>
+            <div className="p-3 sm:p-4 bg-white/5 rounded-2xl mb-4 sm:mb-6">
+              <div className="text-brand-coral font-semibold text-xs sm:text-sm mb-1">Ideal For:</div>
+              <div className="text-white/90 text-xs sm:text-sm">Solo founders, creators, consultants getting started with content</div>
             </div>
 
             <CtaButton 
               variant="secondary" 
-              className="w-full"
+              className="w-full text-sm sm:text-base"
               onClick={() => window.open('https://forms.fillout.com/t/redJ3bErb8us', '_blank')}
             >
               <span>Get Started</span>
-              <ArrowRight className="w-4 h-4" />
+              <ArrowRight className="w-3 h-3 sm:w-4 sm:h-4" />
             </CtaButton>
           </Card>
 

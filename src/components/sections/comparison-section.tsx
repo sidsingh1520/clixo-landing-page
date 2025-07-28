@@ -1,7 +1,7 @@
 import { CtaButton } from "@/components/ui/cta-button"
 import { Card } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { ArrowRight, Camera, Users, Clock, DollarSign, Video, RefreshCw, User, Zap, X, Check } from "lucide-react"
+import { ArrowRight, X, Check } from "lucide-react"
 
 export const ComparisonSection = () => {
   return (
